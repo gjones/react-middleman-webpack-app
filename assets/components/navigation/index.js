@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 
+import './navigation.scss'
+
 class Navigation extends Component {
   render() {
     return (

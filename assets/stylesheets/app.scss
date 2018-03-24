@@ -1,0 +1,18 @@
+// Variables 
+$textSize_default: 1rem;
+$body_bg: #FBFBFB;
+$fontFamily_default: 'Roboto', sans-serif;
+
+// Core
+body {
+  background: $body_bg;
+  font-family: $fontFamily_default;
+  font-size: $textSize_default;
+  padding: 0;
+  margin: 0;
+}
+
+#app-root {
+  max-width: 87.5%;
+  margin: 0 auto;
+}

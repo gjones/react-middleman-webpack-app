@@ -4,7 +4,7 @@ var Clean = require('clean-webpack-plugin');
 
 module.exports = {
   entry: {
-    index: './assets/javascripts/app.js'
+    app: './assets/javascripts/app.js'
   },
 
   resolve: {

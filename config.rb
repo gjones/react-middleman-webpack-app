@@ -38,7 +38,7 @@ activate :external_pipeline,
   command: build? ?
   "NODE_ENV=production ./node_modules/webpack/bin/webpack.js --bail -p" :
   "./node_modules/webpack/bin/webpack.js --watch -d --progress --color",
-  source: "tmp/dist",
+  source: ".tmp/dist",
   latency: 1
 
 # Reload the browser automatically whenever files change

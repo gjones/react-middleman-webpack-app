@@ -1,0 +1,10 @@
+body {
+  background: #FBFBFB;
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0; }
+
+#app-root {
+  max-width: 87.5%;
+  margin: 0 auto; }

@@ -3,14 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <%= stylesheet_link_tag "app.bundle" %>
     <!-- Use the title from a page's frontmatter if it has one -->
     <title><%= current_page.data.title || "Middleman" %></title>
-    <%= stylesheet_link_tag "site" %>
-    <%= javascript_include_tag "site" %>
+    <%= stylesheet_link_tag "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css", "https://fonts.googleapis.com/css?family=Roboto" %>
   </head>
   <body>
-    <%= yield %>
+    <div id="app-root">
+      <%= yield %>
+
+      <%= javascript_include_tag  "app.bundle" %>
+    </div>
   </body>
 </html>
